@@ -8,7 +8,7 @@ public class ConnectionFactory {
 		Connection myConnection = null;
 	    String url = "jdbc:mysql://localhost:3306/casestudy_virtualartgallery?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
 		String username = "root";
-		String password = "#8Rcgvjgvu962";
+		String password = "password";
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		} catch (ClassNotFoundException e) {
